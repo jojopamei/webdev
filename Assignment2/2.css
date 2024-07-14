@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0056b3;
+    color: white;
+}
+
+h1.gradient-text {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.solid-color, .gradient-color, .background-image, .background-repeat, .background-position {
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #555;
+}

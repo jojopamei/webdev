@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Properties Demo</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <header>
+        <h1 class="gradient-text">CSS Color Properties</h1>
+    </header>
+    <main>
+        <section class="solid-color" id="section1">
+            <h2>Solid Colors</h2>
+            <p>This section has a solid background color.</p>
+            <button onclick="changeBackgroundColor('section1', '#4caf50')">Green</button>
+            <button onclick="changeBackgroundColor('section1', '#ff5722')">Orange</button>
+            <button onclick="changeBackgroundColor('section1', '#2196f3')">Blue</button>
+        </section>
+        <section class="gradient-color" id="section2">
+            <h2>Gradients</h2>
+            <p>This section has a gradient background color.</p>
+            <button onclick="changeBackgroundGradient('section2', '#ff7e5f', '#feb47b')">Warm Gradient</button>
+            <button onclick="changeBackgroundGradient('section2', '#00c6ff', '#0072ff')">Cool Gradient</button>
+            <button onclick="changeBackgroundGradient('section2', '#a1c4fd', '#c2e9fb')">Light Gradient</button>
+        </section>
+        <section class="background-image" id="section3">
+            <h2>Background Image</h2>
+            <p>This section has a background image with no-repeat.</p>
+            <button onclick="changeBackgroundImage('section3', 'https://via.placeholder.com/150')">Image 1</button>
+            <button onclick="changeBackgroundImage('section3', 'https://via.placeholder.com/200')">Image 2</button>
+            <button onclick="changeBackgroundImage('section3', 'https://via.placeholder.com/250')">Image 3</button>
+        </section>
+        <section class="background-repeat" id="section4">
+            <h2>Background Repeat</h2>
+            <p>This section has a background image with repeat.</p>
+            <button onclick="changeBackgroundImage('section4', 'https://via.placeholder.com/150')">Image 1</button>
+            <button onclick="changeBackgroundImage('section4', 'https://via.placeholder.com/200')">Image 2</button>
+            <button onclick="changeBackgroundImage('section4', 'https://via.placeholder.com/250')">Image 3</button>
+        </section>
+        <section class="background-position" id="section5">
+            <h2>Background Position</h2>
+            <p>This section has a background image positioned to the top right.</p>
+            <button onclick="changeBackgroundImage('section5', 'https://via.placeholder.com/150')">Image 1</button>
+            <button onclick="changeBackgroundImage('section5', 'https://via.placeholder.com/200')">Image 2</button>
+            <button onclick="changeBackgroundImage('section5', 'https://via.placeholder.com/250')">Image 3</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Color Properties Demo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

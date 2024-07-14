@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.transform-box {
+    width: 200px;
+    height: 200px;
+    background-color: #a5d4e2;
+    margin: 50px auto;
+    position: relative;
+}
+
+.inner-box {
+    width: 100px;
+    height: 100px;
+    background-color: #e2d4d3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg) scale(0.8, 1.2) skew(20deg, 10deg);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+

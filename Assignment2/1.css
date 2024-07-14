@@ -1,0 +1,45 @@
+/* Element selector */
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Class selector */
+.nav-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+/* ID selector */
+#main-heading {
+    font-size: 36px;
+    color: #0056b3;
+}
+
+#click-me {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Attribute selector */
+a[target="_blank"] {
+    color: red;
+    text-decoration: none;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: green;
+}
+
+/* Pseudo-element selector */
+p::first-line {
+    font-weight: bold;
+}

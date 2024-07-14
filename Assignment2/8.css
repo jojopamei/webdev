@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color:whitesmoke;
+    text-align: center;
+}
+
+.container {
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        'header header header'
+        'sidebar content content'
+        'sidebar content content'
+        'sidebar aside aside'
+        'footer footer footer';
+}
+
+.header {
+    border: 1px solid #ccc;
+    grid-area: header;
+    padding: 20px;
+    background-color:palegoldenrod ;
+}
+.sidebar {
+    border: 1px solid #ccc;
+    grid-area: sidebar;
+    padding: 20px;
+    background-color: indianred;
+}
+.content {
+    border: 1px solid #ccc;
+    grid-area: content;
+    padding: 20px;
+    background-color: rgb(126, 169, 247);
+}
+.main {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: aquamarine;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.aside {
+    border: 1px solid #ccc;
+    grid-area: aside;
+    padding: 20px;
+    background-color:rgb(153, 210, 153);
+}
+.footer {
+    border: 1px solid #ccc;
+    grid-area: footer;
+    padding: 20px;
+    background-color: deepskyblue;
+}
+
+.nested {
+    grid-area: nested;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 
+        'n-grid1 n-grid2'
+        'n-grid3 n-grid4';
+    grid-gap: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: rgb(0, 219, 219);
+}
+.n-grid1 {
+    border: 1px solid #ccc;
+    grid-area: n-grid1;
+    background-color: rgb(251, 255, 0);
+    padding: 10px;
+}
+.n-grid2{
+    border: 1px solid #ccc;
+    grid-area: n-grid2;
+    background-color: rgb(255, 234, 0);
+    padding: 10px;
+}
+.n-grid3{
+    border: 1px solid #ccc;
+    grid-area: n-grid3;
+    background-color: rgb(255, 208, 0);
+    padding: 10px;
+}
+.n-grid4 {
+    border: 1px solid #ccc;
+    grid-area: n-grid4;
+    background-color: rgb(255, 170, 0);
+    padding: 10px;
+}
+
+@media (max-width: 550px) {
+    .container {
+        grid-template-areas:  
+         'header'
+         'content'
+         'sidebar'
+         'aside'
+         'footer';
+    }
+
+@media (max-width: 400px) {
+    .nested {
+        grid-template-areas: 
+        'n-grid1'
+        'n-grid2'
+        'n-grid3'
+        'n-grid4';
+    }
+}

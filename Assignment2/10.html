@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images Example</title>
+    <link rel="stylesheet" href="10.css">
+</head>
+<body>
+    <header>
+        <h1>Responsive Images Example</h1>
+    </header>
+    <main>
+        <section class="image-section">
+            <h2>Responsive Image</h2>
+            <img src="https://i.pinimg.com/564x/ec/e1/7d/ece17d2c4d09665b0ca98fac328a6e8d.jpg"
+                 srcset="images/pexels-photo-87651.jpg 800w,
+                         images/pexels-photo-87651-500.jpg 500w,
+                         images/pexels-photo-87651-300.jpg 300w"
+                 sizes="(min-width: 1024px) 800px,
+                        (min-width: 768px) 500px,
+                        300px"
+                 alt="https://i.pinimg.com/564x/ec/e1/7d/ece17d2c4d09665b0ca98fac328a6e8d.jpg">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Responsive Images Example</p>
+    </footer>
+</body>
+</html>

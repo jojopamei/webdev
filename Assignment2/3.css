@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0056b3;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+.typography-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.typography-section h2 {
+    margin-top: 0;
+}
+
+/* Font Families */
+.font-family-sans-serif {
+    font-family: Arial, sans-serif;
+}
+
+.font-family-serif {
+    font-family: 'Times New Roman', serif;
+}
+
+.font-family-monospace {
+    font-family: 'Courier New', monospace;
+}
+
+/* Font Sizes */
+.font-size-small {
+    font-size: 12px;
+}
+
+.font-size-medium {
+    font-size: 18px;
+}
+
+.font-size-large {
+    font-size: 24px;
+}
+
+/* Font Weights */
+.font-weight-light {
+    font-weight: 300;
+}
+
+.font-weight-normal {
+    font-weight: 400;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+/* Font Styles */
+.font-style-normal {
+    font-style: normal;
+}
+
+.font-style-italic {
+    font-style: italic;
+}
+
+.font-style-oblique {
+    font-style: oblique;
+}
+
+/* Line Heights */
+.line-height-normal {
+    line-height: 1.6;
+}
+
+.line-height-double {
+    line-height: 2.0;
+}
+
+/* Text Transformations */
+.text-transform-uppercase {
+    text-transform: uppercase;
+}
+
+.text-transform-lowercase {
+    text-transform: lowercase;
+}
+
+.text-transform-capitalize {
+    text-transform: capitalize;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
